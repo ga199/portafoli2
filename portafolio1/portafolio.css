@@ -1,0 +1,552 @@
+body{
+    background-color: rgb(186, 195, 233);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header {
+    width: 1919px;
+    display: flex;
+    background: rgb(8, 41, 107) no-repeat padding-box;
+    opacity: 1;;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    
+}
+.portada{
+    width: 1919px;
+    height: 337px;
+    display: flex;
+   
+    
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin: 1px 0 13px 550px;
+}
+
+.foto {
+    margin-right: 200px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    margin-top: 14px;  
+}
+.menu {
+    display: none;
+}
+nav {
+    width: 100%;
+    max-width: 500px;
+}
+.menu-inicial{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+nav .menu-inicial {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav .menu-inicial li{
+    padding: 10px 15px 0 0;
+    margin: 0 20px 0 0;
+
+}
+nav .menu-inicial a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9fb2f1;
+}
+nav .menu-inicial a:hover {
+    color: #d0cfdd;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.foto {
+    width: 50px;
+    height: 50px;
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.icons {
+    display: flex;
+    margin-left: 570px;
+    margin-top: -25px;    
+}
+.iconn {
+    margin-right: 10px;
+}
+.iconn:hover {
+    background-color: #ffa60071;
+    border-radius: 100%;
+}
+.name span {
+    font: Bold 73px Segoe UI;
+}
+.name {
+    text-align: center;
+    margin: -110px 0 0 848px ;
+    color: rgb(67, 57, 202);
+    opacity: 3;
+    width: 472px;
+   
+}
+.estudo {
+    margin-top: -40;
+    margin-left: 848px;
+}
+
+.estudo span{
+    font: 300 Italic 34px/46px Segoe UI;
+}
+
+.titulo_historia{
+    margin-top: -40;
+    margin-left: 848px;
+    font: 300 Italic 34px/46px Segoe UI;
+}
+
+
+#inicio{
+    background-color: rgb(73, 73, 170);
+    width: 1919px;
+
+}
+
+.ola{
+    font: 300 Italic 34px/46px Segoe UI;
+    width: 554px;
+    line-height: 30px;
+    margin-left: 848px;
+ 
+}
+
+.resumen{
+    width: 535px;
+    line-height: 30px;
+    margin-left: 848px;
+    font-size: 25px;
+}
+.resumen a {
+    text-decoration: none;
+    color: rgb(246, 244, 247);
+}
+
+.resumo a:hover {
+    color: rgb(34, 4, 34);
+    transition: all .3s ease;
+}
+
+.yo{
+  margin: -150px 560px 0 554px ;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%; 
+}
+
+.estudios {
+    margin-left: 1px;
+    width: 1919px;
+    height: 353px;
+    background: rgba(142, 170, 231, 0.568) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 25px;
+    padding-bottom: -24px;
+}
+
+#formaçao{
+    margin-top: 1px;
+    margin-left: 500px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+.linea1 {
+    width: 558px;
+    height: 3px;
+    text-align: left;
+    font-weight: 500; 
+    font-size: 13px;
+    color: black;
+    opacity: 1;
+}    
+
+.linea2 {
+    width: 844px;
+    height: 3px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 23px;
+    color: black;
+    opacity: 1;
+}
+
+.Bacherelato {
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.toti {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.ciencias {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+
+.front {
+    margin-top: -100px;
+    margin-left: 561px;
+}
+
+.trabajos {
+    margin-left: 1px;
+    width: 1919px;
+    height: 353px;
+    background: #253592  0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 25px;
+    padding-bottom: -24px;
+}
+
+#experiencia{
+    margin-top: 1px;
+    margin-left: 500px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+
+.entrenador {
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #72c5da 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.professor {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.brasil {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.trainer {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+
+.instrumentos {
+    margin-top: -100px;
+    margin-left: 561px;
+}
+
+.churrasqueiro {
+    margin-top: -100px;
+    margin-left: 561px;
+}
+
+.violão {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 430px;
+   
+ 
+}
+
+.musica {
+    margin-top: -100px;
+    margin-left: 461px;
+
+}
+
+.imagem{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#hobbie{
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+
+.musica li{
+    padding: 25px 20px 10px 10px;
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+	text-align: justify;
+	width: 40%;
+	vertical-align: top;
+	margin: 25px 1.5%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+    margin-top: 50px;
+    
+}
+
+.repo{
+    font-size: 60px;
+    color: rgb(72, 80, 150);
+    margin-left: 500px;
+    width: 1919px;
+    height: 10px;
+    margin-top: -10px;
+}
+.archive {
+    display: inline-block;
+    background-color:rgb(43, 53, 204);
+    width: 180px;
+    height: 20px;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgba(3, 3, 15, 0.973);
+    text-transform: uppercase;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin: 20px 100px 40px 300px;
+}
+
+.archive:hover {
+    background-color: rgba(16, 82, 182, 0.671);
+    justify-content: center;
+    transition: all 0.4s; 
+    color:rgb(1, 15, 17);  
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.contato {
+    width: 1919px;
+    height: 500px;
+    background: #253592 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 35px;
+    margin-top: -35px;
+}
+.cont {
+    margin-top: 1px;
+    margin-left: 400px;
+    height: 73px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 55px;
+    letter-spacing: 0px;
+    color:#43a4ca;
+    opacity: 1;
+    padding-top: -34px;
+}
+.content-cont {
+    width: 390px;
+    height: 200px;
+    text-align: left;
+    font-weight: 400;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #43a4ca;
+    opacity: 1;
+    margin-left: 400px;
+}
+.content-cont2 {
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+}
+.content-cont2 img {
+    margin-right: 10px;
+}
+.content-cont2 img:hover{
+    background-color: #43a4ca;
+    border-radius: 100%;
+}
+.Formulario {
+    margin-left: 810px;
+    margin-top: -373px;
+}
+label {
+    width: 39px;
+    height: 17px;
+    text-align: left;
+    font-weight: Bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color:#43a4ca;
+    opacity: 1;
+}
+input {
+    width: 398px;
+    height: 34px;
+    background: rgb(16, 216, 206) 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 10px;
+    display: flex;
+}
+textarea {
+    width: 398px;
+    height: 133px;
+    background: rgb(64, 145, 238) 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 1;
+    display: flex;
+}
+.submit {
+    width: 122px;
+    height: 34px;
+    background: black 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 140px;
+    margin-top: 16px;
+    color: rgb(40, 187, 224);
+    justify-content: center;
+}
+.submit:hover {
+    background: #3c39cc;
+    color: rgb(0, 0, 0);
+}
+
+.pe{
+
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(179, 179, 243);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer p{
+    padding: 45px 0 0 0;
+}
+
+@media (max-width:780px) {
+    body {
+        width: 780px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        width: 780px;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+          
+    }
+
+    .foto {
+        border-radius: 50%;
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .portada {
+        width: 780px;
+        height: 200px;
+        object-fit: cover;    
+    }
